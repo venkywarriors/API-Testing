@@ -11,8 +11,3 @@ RestSharp is a comprehensive, open-source HTTP client library that works with al
 JSONPath is a query language for JSON, similar to XPath for XML. AlertSite API endpoint monitors let you use JSONPath in assertions to specify the JSON fields that need to be verified.<br>
 <a href="https://support.smartbear.com/alertsite/docs/monitors/api/endpoint/jsonpath.html">JSONPath notation</a><br>
 <a href="https://docs.hevodata.com/pipelines/miscellaneous/how-to-write-jsonpath-expressions/">JSONPath Syntax</a><br>
-
-### How to write XPath expressions
-XPath is a technique in Selenium to navigate through the HTML structure of a page. XPath enables testers to navigate through the XML structure of any document, and this can be used on both HTML and XML documents. This post looks at various ways to use the XPath element in Selenium to select various elements.
-<a href="https://www.lambdatest.com/blog/complete-guide-for-using-xpath-in-selenium-with-examples/">XPath In Selenium With Examples</a><br>
-<a href="https://www.guru99.com/xpath-selenium.html">Different XPath expression</a>
