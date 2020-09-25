@@ -16,5 +16,5 @@ JSONPath is a query language for JSON, similar to XPath for XML. AlertSite API e
 ### How to Use Base 64 Encoding in Header 
 The auth code and client credentials grants require the auth code to be passed in the Authorization header using base 64 encoding. Many HTTP/REST libraries will handle the formatting and encoding for basic authentication requests, though not all do. This page serves to provide an explanation of the encoding process.
 #### The Authorization Header
-The Authorization header is the format Authorization: Basic encodedString, where encodedString is the result of base 64 encoding the OAuth client's values as clientId:clientSecret.
+The Authorization header is the format Authorization: Basic encodedString, where encodedString is the result of base 64 encoding the OAuth client's values as clientId:clientSecret.<br>
 <a href="https://docs.smsportal.com/docs/rest-examples">Base 64 Encoding</a><br>
