@@ -7,6 +7,7 @@ RestSharp is a comprehensive, open-source HTTP client library that works with al
 [RestSharp Basics](https://github.com/venkywarriors/API-Testing/blob/master/RestSharp-3.pdf) <br>
 [RestSharp Vs RestAssured](https://github.com/venkywarriors/Restshap-with-c-sharp/blob/master/RestSharp%20Vs%20RestAssured.pdf)<br>
 [Rest Vs SOAP](https://github.com/venkywarriors/Restshap-with-c-sharp/blob/master/soap%20and%20rest_removed.pdf)<br>
+<a href="https://www.tutorialspoint.com/http/http_status_codes.htm">HTTP - Status Codes</a><br>
 
 ### How to write JSONPath expressions
 JSONPath is a query language for JSON, similar to XPath for XML. AlertSite API endpoint monitors let you use JSONPath in assertions to specify the JSON fields that need to be verified.<br>
@@ -20,6 +21,7 @@ The Authorization header is the format Authorization: Basic encodedString, where
 <a href="https://docs.smsportal.com/docs/rest-examples">Base 64 Encoding</a><br>
 
 ### How to make a Post SOAP request with XML fields in RestSharp?
-
 <a href="https://developer.channeladvisor.com/authorization/soap-api-credentials-flow/rest-request-access-endpoint">Post SOAP request</a><br>
 <a href="https://stackoverflow.com/questions/59908572/how-to-make-a-post-soap-request-with-xml-fields-in-restsharp">Submit SOAP request via Rest api</a><br>
+
+
