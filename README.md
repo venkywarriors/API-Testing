@@ -18,3 +18,8 @@ The auth code and client credentials grants require the auth code to be passed i
 #### The Authorization Header
 The Authorization header is the format Authorization: Basic encodedString, where encodedString is the result of base 64 encoding the OAuth client's values as clientId:clientSecret.<br>
 <a href="https://docs.smsportal.com/docs/rest-examples">Base 64 Encoding</a><br>
+
+### How to make a Post SOAP request with XML fields in RestSharp?
+
+<a href="https://developer.channeladvisor.com/authorization/soap-api-credentials-flow/rest-request-access-endpoint">Post SOAP request</a><br>
+<a href="https://stackoverflow.com/questions/59908572/how-to-make-a-post-soap-request-with-xml-fields-in-restsharp">Submit SOAP request via Rest api</a><br>
