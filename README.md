@@ -37,3 +37,12 @@ Synchronous execution occurs during online shopping. A user decides to purchase 
 <br>
 Conversely, asynchronous communication allows code to continue to run after it has generated a call or response. Asynchronous communication is particularly valuable for reporting and alerts, such as a manufacturing application that monitors the temperature of an industrial furnace, continually transmits status updates and automatically sends alerts. This type of application should never stop and wait for responses before it moves on to the next action. Instead, the communication alone should trigger either personnel or another application to take action. For instance, the application might send asynchronous temperature updates throughout the day, but also set off a troubleshooting sequence whenever temperatures either exceed or drop below acceptable levels
 <br>
+```
+using RestSharp;
+using RestSharp.Authenticators;
+
+var client = new RestClient("https://api.twitter.com/1.1");
+client.Authenticator = new HttpBasicAuthenticator("username", "password");
+var request = new RestRequest("statuses/home_timeline.json", DataFormat.Json);
+var timeline = await client.GetAsync<HomeTimeline>(request, cancellationToken);
+```
