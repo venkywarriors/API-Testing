@@ -27,3 +27,13 @@ The Authorization header is the format Authorization: Basic encodedString, where
 ## Selenium exceptions
 <a href="https://www.katalon.com/resources-center/blog/selenium-exceptions/">Common exceptions</a><br>
 
+## Synchronous vs. asynchronous communications
+In synchronous communications, multiple parties continually listen for and act upon replies from each other. One way to visualize the concept of synchronous communications is to imagine a real-time online chat system designed for a retailer's customer support. The support specialist quickly exchanges messages with the customer to help them track an order, report a missing delivery or inquire about a certain product.
+In this scenario, both the sender and receiver establish a communications session. Once the session is established, the two-way conversation takes place with no restrictions on who inputs information when. As one party types and sends a chat message, the party at the other end is present and actively waiting to receive and respond to your message. This is what defines synchronous communications.
+<br>
+In asynchronous communication, parties do not actively listen for messages. Building off the example above, imagine the customer uses an email support channel instead of the live chat. Asynchronous transmission occurs when the email is sent to the manufacturer's support department. The customer does not expect to receive a reply in real time. Rather, the email message arrives at the retailer, where the staff choose when to read or reply to the message.
+<br>
+Synchronous execution occurs during online shopping. A user decides to purchase a product, and the system generates a query to determine if inventory is available. The app waits for a response before starting the checkout process. This synchronous design prevents mismatches between inventory and sales.
+<br>
+Conversely, asynchronous communication allows code to continue to run after it has generated a call or response. Asynchronous communication is particularly valuable for reporting and alerts, such as a manufacturing application that monitors the temperature of an industrial furnace, continually transmits status updates and automatically sends alerts. This type of application should never stop and wait for responses before it moves on to the next action. Instead, the communication alone should trigger either personnel or another application to take action. For instance, the application might send asynchronous temperature updates throughout the day, but also set off a troubleshooting sequence whenever temperatures either exceed or drop below acceptable levels
+<br>
