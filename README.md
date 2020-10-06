@@ -24,4 +24,6 @@ The Authorization header is the format Authorization: Basic encodedString, where
 <a href="https://developer.channeladvisor.com/authorization/soap-api-credentials-flow/rest-request-access-endpoint">Post SOAP request</a><br>
 <a href="https://stackoverflow.com/questions/59908572/how-to-make-a-post-soap-request-with-xml-fields-in-restsharp">Submit SOAP request via Rest api</a><br>
 
+## Selenium exceptions
+<a href="https://www.katalon.com/resources-center/blog/selenium-exceptions/">Common exceptions</a><br>
 
