@@ -8,7 +8,7 @@ RestSharp is a comprehensive, open-source HTTP client library that works with al
 [RestSharp Vs RestAssured](https://github.com/venkywarriors/Restshap-with-c-sharp/blob/master/RestSharp%20Vs%20RestAssured.pdf)<br>
 [Rest Vs SOAP](https://github.com/venkywarriors/Restshap-with-c-sharp/blob/master/soap%20and%20rest_removed.pdf)<br>
 <a href="https://www.tutorialspoint.com/http/http_status_codes.htm">HTTP - Status Codes</a><br>
-
+<a href="https://idratherbewriting.com/learnapidoc/docapis_doc_parameters.html">What is Parameters?</a><br>
 ### How to write JSONPath expressions
 JSONPath is a query language for JSON, similar to XPath for XML. AlertSite API endpoint monitors let you use JSONPath in assertions to specify the JSON fields that need to be verified.<br>
 <a href="https://support.smartbear.com/alertsite/docs/monitors/api/endpoint/jsonpath.html">JSONPath notation</a><br>
